@@ -1,4 +1,4 @@
-# Product_Inventory_Management_System
+# Book_Management_System
 
 =================
 
@@ -7,6 +7,7 @@ In this project, I have created a Book Management System App using React JS, Jav
 ## To start a project
 
 > npm install i
+
 > npm start
 
 ## To access a project
