@@ -30,14 +30,18 @@ Open a brower and type below:
 
 1. able to see All Books  
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/All_Books.png)
-2. Add New Book in All Books (BookList)
+
+2. able to see perticular book detail  
+   ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/More Details.png)
+
+3. Add New Book in All Books (BookList)
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/Add_New_Book.png)
 
-3. Search Book from All Books
+4. Search Book from All Books
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/SearchFilter.png)
 
-4. Update Book Data
+5. Update Book Data
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/Edit_Book.png)
 
-5. Delete Book Data
+6. Delete Book Data
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/All_Books.png)
