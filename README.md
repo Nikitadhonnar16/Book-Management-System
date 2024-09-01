@@ -16,7 +16,8 @@ Open a brower and type below:
 > http://localhost:3000/
 
 =================
-##Technologies & Libraries USed
+
+## Technologies & Libraries USed
 
 1. React JS
 2. Fetch
