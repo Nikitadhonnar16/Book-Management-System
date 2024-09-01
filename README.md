@@ -32,7 +32,7 @@ Open a brower and type below:
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/All_Books.png)
 
 2. able to see perticular book detail  
-   ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/More Details.png)
+   ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/More_Details.png)
 
 3. Add New Book in All Books (BookList)
    ![](https://github.com/Nikitadhonnar16/Book-Management-System/blob/main/public/images/Add_New_Book.png)
