@@ -8,16 +8,16 @@ const Update = () => {
   //   console.log(id);
   const [updateData, setUpdateData] = useState("");
   const { users, loading } = useSelector((state) => state.app);
-
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
+  // console.log("users", users);
   useEffect(() => {
-    const singleUser = users.filter((cur, i) => cur.id === Number(id));
+    const singleUser = users.filter((cur, i) => cur.id === id);
     setUpdateData(singleUser[0]);
+    console.log("updatedata singleUser", singleUser[0]);
   }, []);
 
-  console.log(updateData);
+  console.log("updateData", updateData);
 
   const newData = (e) => {
     setUpdateData({ ...updateData, [e.target.name]: e.target.value });
@@ -42,8 +42,8 @@ const Update = () => {
           <input
             type="text"
             name="title"
-            onChange={newData}
             value={updateData && updateData.title}
+            onChange={newData}
             className="form-control w-75"
           />
         </div>
@@ -54,8 +54,8 @@ const Update = () => {
           <input
             type="text"
             name="author"
-            onChange={newData}
             value={updateData && updateData.author}
+            onChange={newData}
             className="form-control w-75"
           />
         </div>
@@ -116,6 +116,54 @@ const Update = () => {
             name="totalEdition"
             onChange={newData}
             value={updateData && updateData.totalEdition}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Image URL
+          </label>
+          <input
+            type="text"
+            name="image"
+            onChange={newData}
+            value={updateData && updateData.image}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Published Year
+          </label>
+          <input
+            type="text"
+            name="year"
+            onChange={newData}
+            value={updateData && updateData.year}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Description
+          </label>
+          <input
+            type="text"
+            name="description"
+            onChange={newData}
+            value={updateData && updateData.description}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Pages
+          </label>
+          <input
+            type="text"
+            name="pages"
+            onChange={newData}
+            value={updateData && updateData.pages}
             className="form-control w-75"
           />
         </div>

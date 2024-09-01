@@ -10,7 +10,7 @@ const BookDetails = () => {
 
   const allData = useSelector((state) => state.app.users);
 
-  const singleUser = allData.filter((cur, i) => cur.id === Number(id)); //here useParams return as string so need to convert into Number === checking type also
+  const singleUser = allData.filter((cur, i) => cur.id === id);
 
   console.log("SingleUser", singleUser);
 

@@ -23,7 +23,7 @@ const AllBooks = () => {
   }
 
   return (
-    <div className="d-flex flex-wrap gap-3 justify-content-center my-5">
+    <div className=" container d-flex flex-wrap gap-3 justify-content-center my-5">
       {users &&
         users
           .filter((ele) => {

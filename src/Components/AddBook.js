@@ -28,7 +28,7 @@ const AddBook = () => {
 
   return (
     <div>
-      <form className="w-50 mx-auto my-5" onSubmit={submitData}>
+      <form className=" w-50 mx-auto my-5" onSubmit={submitData}>
         <h2 className="mb-4">Add New Book</h2>
 
         <div className="mb-3">
@@ -104,6 +104,50 @@ const AddBook = () => {
           <input
             type="text"
             name="totalEdition"
+            onChange={userData}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Image URL
+          </label>
+          <input
+            type="text"
+            name="image"
+            onChange={userData}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Published Year
+          </label>
+          <input
+            type="text"
+            name="year"
+            onChange={userData}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Description
+          </label>
+          <input
+            type="text"
+            name="description"
+            onChange={userData}
+            className="form-control w-75"
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleInputPassword1" className="form-label">
+            Pages
+          </label>
+          <input
+            type="text"
+            name="pages"
             onChange={userData}
             className="form-control w-75"
           />
