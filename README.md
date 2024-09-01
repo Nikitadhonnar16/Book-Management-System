@@ -6,6 +6,7 @@ In this project, I have created a Book Management System App using React JS, Jav
 
 ## To start a project
 
+> npm install i
 > npm start
 
 ## To access a project
@@ -13,6 +14,16 @@ In this project, I have created a Book Management System App using React JS, Jav
 Open a brower and type below:
 
 > http://localhost:3000/
+
+=================
+##Technologies & Libraries USed
+
+1. React JS
+2. Fetch
+3. Redux Toolkit
+4. HTML
+5. CSS
+6. Bootstrap 5
 
 ## Usage
 
